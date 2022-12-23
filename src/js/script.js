@@ -1,8 +1,6 @@
 const imageObject = document.getElementById("image");
 const date = new Date();
 
-console.log(date.getDay());
-
 switch (date.getDay()) {
   case 3:
     imageObject.src = "./src/img/sreda.jpg"
