@@ -10,23 +10,22 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./src/css/animate.min.css" />
     <link rel="stylesheet" href="./src/css/style.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <title>ppy</title>
   </head>
   <body>
-    <header>
-      <div class="header">
-        <div class="header__img">
-            <img src="./src/img/friday.jpg">
-        </div>
-        <div class="header__title">
-          <h1>Hi, I'm <span class="red">Dean</span></h1>
-          <h2>Gay Developer<img src="./src/img/food.png" /></h2>
-        </div>
+    <header class="header">
+      <div class="header__img">
+        <img src="./src/img/friday.jpg" />
+      </div>
+      <div class="header__title">
+        <h1>Hi, I'm <span class="red">Dean</span></h1>
+        <h2>Gay Developer<img class="food" src="./src/img/food.png" /></h2>
       </div>
     </header>
-    <div class="block">
+    <div class="block wow animate__animated animate__fadeInUp">
       <h2>about</h2>
       <p>
         I'm maintainer of osu! project. Also I'm eating shit and dragging
@@ -34,37 +33,37 @@
       </p>
       <h2 class="closing">/about</h2>
     </div>
-    <div class="block">
+    <div class="block wow animate__animated animate__fadeInUp">
       <h2>skills</h2>
       <div class="container">
+        <h3>DRAGGING CIRCLES</h3>
         <div class="skill">
           <div class="item col-1"></div>
           <div class="item col-2"></div>
           <div class="item col-3"></div>
           <div class="item col-4"></div>
           <div class="item col-5"></div>
-          <span>DRAGGING CIRCLES</span>
         </div>
+        <h3>SHIT EATING</h3>
         <div class="skill">
           <div class="item col-1"></div>
           <div class="item col-2"></div>
           <div class="item col-3"></div>
           <div class="item col-4"></div>
           <div class="item col-5"></div>
-          <span>SHIT EATING</span>
         </div>
+        <h3>DOING SOMETHING NORMAL</h3>
         <div class="skill">
           <div class="item col-1"></div>
           <div class="item"></div>
           <div class="item"></div>
           <div class="item"></div>
           <div class="item"></div>
-          <span>DOING SOMETHING NORMAL</span>
         </div>
       </div>
       <h2 class="closing">/skills</h2>
     </div>
-    <div class="block">
+    <div class="block wow animate__animated animate__fadeInUp">
       <h2>projects</h2>
       <div class="projects">
         <div class="projects__item">
@@ -86,7 +85,7 @@
       </div>
       <h2 class="closing">/projects</h2>
     </div>
-    <div class="career block">
+    <div class="career block wow animate__animated animate__fadeInUp">
       <h2>career</h2>
       <ul>
         <li><span class="red">Shit Eater</span> @ Life | 1982 - Present</li>
@@ -94,5 +93,9 @@
       </ul>
       <h2 class="closing">/career</h2>
     </div>
+    <script src="./src/js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
