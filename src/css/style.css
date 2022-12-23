@@ -152,6 +152,8 @@ p {
   width: 4rem;
   aspect-ratio: 1;
   background-color: #f2f2f2;
+
+  border: 0.75rem solid #c2c2c266;
   border-radius: 50%;
 }
 
