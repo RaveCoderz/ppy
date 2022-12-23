@@ -15,9 +15,15 @@ li {
   list-style: none;
 }
 body {
+  margin: 0;
   font-family: "Nunito", sans-serif;
-  margin: 2rem;
 }
+
+.overflow {
+  padding: 2rem;
+  overflow: hidden;
+}
+
 .block h2 {
   font-weight: 700;
   font-size: 2rem;
@@ -34,6 +40,19 @@ p {
 .block h2::after {
   content: ">";
 }
+
+.header {
+  height: calc(100vh - 1rem);
+  display: flex;
+  gap: 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__container {
+  position: relative;
+}
+
 .header h1 {
   font-weight: 400;
   font-size: 3rem;
@@ -46,7 +65,36 @@ p {
   align-items: center;
   white-space: nowrap;
 }
+
+.header__circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2rem solid #c2c2c266;
+  border-radius: 50%;
+}
+
+.header__circle--blink {
+  z-index: -100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  width: 243px;
+  height: 243px;
+
+  border: 1px solid #c2c2c255;
+  border-radius: 50%;
+  animation: blink 3s ease-in-out infinite alternate;
+  z-index: 1;
+}
+
 .header__img {
+  z-index: 2;
   position: relative;
   border: 5px solid #ff4e4e;
   box-shadow: 0 0 25px 50px #ff4e4e22;
@@ -86,14 +134,6 @@ p {
   transform: scale(0);
   border-radius: 50%;
   transition: filter 0.5s, transform 0.5s;
-}
-
-.header {
-  height: 100vh;
-  display: flex;
-  gap: 5%;
-  align-items: center;
-  justify-content: center;
 }
 
 .closing {
@@ -152,21 +192,6 @@ p {
   margin-top: 1rem;
 }
 
-.col-1 {
-  background: rgba(255, 78, 78, 0.2);
-}
-.col-2 {
-  background: rgba(255, 78, 78, 0.4);
-}
-.col-3 {
-  background: rgba(255, 78, 78, 0.6);
-}
-.col-4 {
-  background: rgba(255, 78, 78, 0.8);
-}
-.col-5 {
-  background: rgba(255, 78, 78, 1);
-}
 .projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -194,15 +219,32 @@ p {
   font-weight: 600;
   font-size: 1.25rem;
 }
-.red {
-  color: #ff4e4e;
-  font-weight: 700;
-}
 
 .food {
   margin-left: 0.5rem;
   animation: food 3s ease-in-out infinite alternate;
   transform-origin: center;
+}
+
+.red {
+  color: #ff4e4e;
+  font-weight: 700;
+}
+
+.col-1 {
+  background: rgba(255, 78, 78, 0.2);
+}
+.col-2 {
+  background: rgba(255, 78, 78, 0.4);
+}
+.col-3 {
+  background: rgba(255, 78, 78, 0.6);
+}
+.col-4 {
+  background: rgba(255, 78, 78, 0.8);
+}
+.col-5 {
+  background: rgba(255, 78, 78, 1);
 }
 
 @keyframes food {
@@ -211,6 +253,12 @@ p {
   }
   50% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes blink {
+  50% {
+    transform: scale(4);
   }
 }
 
