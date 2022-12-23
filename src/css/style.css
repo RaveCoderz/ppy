@@ -1,0 +1,136 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 2rem;
+}
+.block h2 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #777777;
+}
+p {
+  font-weight: 400;
+  font-size: 36px;
+  margin: 0 2rem;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.block h2::before {
+  content: "<";
+}
+.block h2::after {
+  content: ">";
+}
+.header h1 {
+  font-weight: 400;
+  font-size: 64px;
+}
+.header h2 {
+  font-weight: 400;
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+}
+.header__img img {
+  object-fit: cover;
+  width: 278px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 5px solid #ff4e4e;
+}
+.header {
+  display: flex;
+  gap: 90px;
+  align-items: center;
+}
+.closing {
+  text-align: right;
+}
+.skill {
+  display: flex;
+  gap: 30px;
+  font-weight: 700;
+  font-size: 36px;
+  color: #777777;
+  align-items: center;
+}
+.item {
+  width: 120px;
+  height: 80px;
+  background-color: #f2f2f2;
+  border-radius: 16px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin: 0 2rem;
+}
+.col-1 {
+  background: rgba(255, 78, 78, 0.2);
+}
+.col-2 {
+  background: rgba(255, 78, 78, 0.4);
+}
+.col-3 {
+  background: rgba(255, 78, 78, 0.6);
+}
+.col-4 {
+  background: rgba(255, 78, 78, 0.8);
+}
+.col-5 {
+  background: rgba(255, 78, 78, 1);
+}
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin: 0 2rem;
+}
+.projects__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #cccccc;
+  border-radius: 16px;
+  padding: 5rem 0;
+}
+.projects__item h3 {
+  font-weight: 700;
+  font-size: 48px;
+}
+.projects__item p {
+  font-weight: 400;
+  font-size: 48px;
+}
+.career li {
+  font-weight: 700;
+  font-size: 48px;
+}
+.red {
+  color: #ff4e4e;
+  font-weight: 700;
+}
+.career ul {
+  margin: 0 2rem;
+}
