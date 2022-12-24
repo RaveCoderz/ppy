@@ -27,73 +27,73 @@ ppys.forEach((ppy) => {
       const splash = document.createElement("div");
       splash.innerHTML = `
       <h1>Congratulations!</h1>
-      <img class="osu" id="osu" src="./img/osu.svg">
+      <img class="osu" id="osu" src="./img/icons/osu.svg">
       <h2>You are great shit eater!</h2>`;
       splash.classList.add("splash");
       document.body.append(splash);
 
       document.body.innerHTML += `
       <div class="shit" id="shit">
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
-      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
     </div>`;
 
       const storageKey = "shit";
@@ -149,15 +149,25 @@ const date = new Date();
 day.innerText = date.getDate();
 
 switch (date.getDay()) {
+  case 0:
+    imageObject.src = "./img/days/Sunday.png";
+    break;
+  case 1:
+    imageObject.src = "./img/days/Monday.png";
+    break;
+  case 2:
+    imageObject.src = "./img/days/Tuesday.png";
+    break;
   case 3:
-    imageObject.src = "./img/sreda.jpg";
+    imageObject.src = "./img/days/Wednesday.jpg";
     break;
-
+  case 4:
+    imageObject.src = "./img/days/Thursday.png";
+    break;
   case 5:
-    imageObject.src = "./img/friday.jpg";
+    imageObject.src = "./img/days/Friday.jpg";
     break;
-
-  default:
-    imageObject.src = "./img/beer.jpg";
+  case 6:
+    imageObject.src = "./img/days/Saturday.png";
     break;
 }
