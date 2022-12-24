@@ -1,21 +1,21 @@
 # shit-ppy
-### Shit eater portfolio
+Shit eater portfolio
 
-## Запуск проекта
+### Запуск проекта
 
-Клонируем репозиторий
+1. Клонируем репозиторий
 
 ```bash
    git clone https://github.com/ShitCoderz/shit-ppy.git
 ```
 
-Устанавливаем зависимости
+2. Устанавливаем зависимости
 
 ```bash
    npm install
 ```
 
-Запускаем режим разработки
+3. Запускаем режим разработки
 
 ```bash
    npm run dev
