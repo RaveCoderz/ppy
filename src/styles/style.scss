@@ -306,12 +306,54 @@ p {
   }
 }
 
+.shit {
+  --animation-name: snowfall;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+
+  &__item {
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    top: -3rem;
+    color: #c1dcec;
+    animation-name: var(--animation-name);
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    will-change: transform;
+  }
+}
+
+@keyframes snowfall {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(calc(100vh + 3.5em));
+  }
+}
+
+.osu {
+  padding: 2rem;
+  height: 25%;
+  aspect-ratio: 1;
+  object-fit: contain;
+  animation: osu 0.4s ease-in-out infinite alternate;
+}
+
 .splash {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 10rem;
   position: fixed;
   left: 0;
   top: 0;
@@ -321,11 +363,11 @@ p {
   z-index: 100;
 
   h1 {
-    font-size: 5rem;
+    font-size: 3rem;
   }
 
   h2 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 
@@ -355,6 +397,12 @@ p {
   }
   50% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes osu {
+  50% {
+    transform: scale(1.25);
   }
 }
 
