@@ -137,6 +137,7 @@ ppys.forEach((ppy) => {
 
       const audio = new Audio("./audio/circles.mp3");
       audio.play();
+      audio.loop = true;
     }
   });
 });
