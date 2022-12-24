@@ -1,0 +1,66 @@
+(function(){const o=document.createElement("link").relList;if(o&&o.supports&&o.supports("modulepreload"))return;for(const s of document.querySelectorAll('link[rel="modulepreload"]'))l(s);new MutationObserver(s=>{for(const t of s)if(t.type==="childList")for(const e of t.addedNodes)e.tagName==="LINK"&&e.rel==="modulepreload"&&l(e)}).observe(document,{childList:!0,subtree:!0});function a(s){const t={};return s.integrity&&(t.integrity=s.integrity),s.referrerpolicy&&(t.referrerPolicy=s.referrerpolicy),s.crossorigin==="use-credentials"?t.credentials="include":s.crossorigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function l(s){if(s.ep)return;s.ep=!0;const t=a(s);fetch(s.href,t)}})();new WOW().init();const y=[document.getElementById("ppy-1"),document.getElementById("ppy-2"),document.getElementById("ppy-3"),document.getElementById("ppy-4"),document.getElementById("ppy-5")],f={"ppy-1":!1,"ppy-2":!1,"ppy-3":!1,"ppy-4":!1,"ppy-5":!1};y.forEach(r=>{r.addEventListener("click",o=>{if(f[o.target.id]=!0,Object.values(f).filter(e=>e===!1).length===0){let m=function(i,c){return Math.floor(Math.random()*(c-i+1))+i},p=function(i,c){return(Math.random()*(c-i)+i).toFixed(1)},g=function(i){u.style.setProperty("--animation-name",i)};var l=m,s=p,t=g;const e=document.createElement("div");e.innerHTML=`
+      <h1>Congratulations!</h1>
+      <img class="osu" id="osu" src="./img/osu.svg">
+      <h2>You are great shit eater!</h2>`,e.classList.add("splash"),document.body.append(e),document.body.innerHTML+=`
+      <div class="shit" id="shit">
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+      <img class="shit__item" src="./img/food.png" />
+    </div>`;const d="shit",u=document.querySelector(".shit"),_=document.querySelectorAll(".shit__item");_.forEach(i=>{i.style.fontSize=p(.7,1.5)+"em",i.style.animationDuration=m(10,15)+"s",i.style.animationDelay=m(-1,_.length/2)+"s"}),document.addEventListener("DOMContentLoaded",()=>{let i=localStorage.getItem(d);i&&(snowToggle.querySelector(`.snow-toggle__control[value='${i}']`).checked=!0),g(i),window.addEventListener("storage",()=>{g(localStorage.getItem(d))})}),new Audio("./audio/circles.mp3").play()}})});const n=document.getElementById("ppy-4"),v=document.getElementById("day"),h=new Date;v.innerText=h.getDate();switch(h.getDay()){case 3:n.src="./img/sreda.jpg";break;case 5:n.src="./img/friday.jpg";break;default:n.src="./img/beer.jpg";break}
