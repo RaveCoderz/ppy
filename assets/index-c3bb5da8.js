@@ -1,0 +1,66 @@
+(function(){const c=document.createElement("link").relList;if(c&&c.supports&&c.supports("modulepreload"))return;for(const s of document.querySelectorAll('link[rel="modulepreload"]'))d(s);new MutationObserver(s=>{for(const o of s)if(o.type==="childList")for(const t of o.addedNodes)t.tagName==="LINK"&&t.rel==="modulepreload"&&d(t)}).observe(document,{childList:!0,subtree:!0});function a(s){const o={};return s.integrity&&(o.integrity=s.integrity),s.referrerpolicy&&(o.referrerPolicy=s.referrerpolicy),s.crossorigin==="use-credentials"?o.credentials="include":s.crossorigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function d(s){if(s.ep)return;s.ep=!0;const o=a(s);fetch(s.href,o)}})();new WOW().init();const b=[document.getElementById("ppy-1"),document.getElementById("ppy-2"),document.getElementById("ppy-3"),document.getElementById("ppy-4"),document.getElementById("ppy-5")],h={"ppy-1":!1,"ppy-2":!1,"ppy-3":!1,"ppy-4":!1,"ppy-5":!1};b.forEach(r=>{r.addEventListener("click",c=>{if(h[c.target.id]=!0,Object.values(h).filter(t=>t===!1).length===0){let n=function(i,g){return Math.floor(Math.random()*(g-i+1))+i},p=function(i,g){return(Math.random()*(g-i)+i).toFixed(1)},m=function(i){y.style.setProperty("--animation-name",i)};var d=n,s=p,o=m;const t=document.createElement("div");t.innerHTML=`
+      <h1>Congratulations!</h1>
+      <img class="osu" id="osu" src="./img/icons/osu.svg">
+      <h2>You are great shit eater!</h2>`,t.classList.add("splash"),document.body.append(t),document.body.innerHTML+=`
+      <div class="shit" id="shit">
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item" src="./img/icons/food.png" />
+    </div>`;const l="shit",y=document.querySelector(".shit"),_=document.querySelectorAll(".shit__item");_.forEach(i=>{i.style.fontSize=p(.7,1.5)+"em",i.style.animationDuration=n(10,15)+"s",i.style.animationDelay=n(-1,_.length/2)+"s"}),document.addEventListener("DOMContentLoaded",()=>{let i=localStorage.getItem(l);i&&(snowToggle.querySelector(`.snow-toggle__control[value='${i}']`).checked=!0),m(i),window.addEventListener("storage",()=>{m(localStorage.getItem(l))})});const f=new Audio("./audio/circles.mp3");f.play(),f.loop=!0}})});const e=document.getElementById("ppy-4"),v=document.getElementById("day"),u=new Date;v.innerText=u.getDate();switch(u.getDay()){case 0:e.src="./img/days/Sunday.png";break;case 1:e.src="./img/days/Monday.png";break;case 2:e.src="./img/days/Tuesday.png";break;case 3:e.src="./img/days/Wednesday.jpg";break;case 4:e.src="./img/days/Thursday.png";break;case 5:e.src="./img/days/Friday.jpg";break;case 6:e.src="./img/days/Saturday.png";break}
