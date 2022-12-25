@@ -29,75 +29,67 @@ ppys.forEach((ppy) => {
       <h1>Congratulations!</h1>
       <img class="osu" id="osu" src="./img/icons/osu.svg">
       <h2>You are great shit eater!</h2>`;
+
       splash.classList.add("splash");
       document.body.append(splash);
 
       document.body.innerHTML += `
+      <button class="donate" id="donate">Donate</button>
       <div class="shit" id="shit">
       <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item shit__item--drop" src="./img/icons/drop.png" />
       <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item shit__item--drop" src="./img/icons/drop.png" />
       <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item shit__item--drop" src="./img/icons/drop.png" />
       <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item shit__item--drop" src="./img/icons/drop.png" />
       <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item shit__item--drop" src="./img/icons/drop.png" />
       <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item shit__item--drop" src="./img/icons/drop.png" />
       <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item shit__item--drop" src="./img/icons/drop.png" />
       <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item shit__item--drop" src="./img/icons/drop.png" />
       <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item shit__item--drop" src="./img/icons/drop.png" />
       <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item shit__item--drop" src="./img/icons/drop.png" />
       <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item shit__item--drop" src="./img/icons/drop.png" />
       <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item shit__item--drop" src="./img/icons/drop.png" />
       <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item shit__item--drop" src="./img/icons/drop.png" />
       <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item shit__item--drop" src="./img/icons/drop.png" />
       <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item shit__item--drop" src="./img/icons/drop.png" />
       <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item shit__item--drop" src="./img/icons/drop.png" />
       <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item shit__item--drop" src="./img/icons/drop.png" />
       <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
-      <img class="shit__item" src="./img/icons/food.png" />
+      <img class="shit__item shit__item--drop" src="./img/icons/drop.png" />
     </div>`;
 
-      const storageKey = "shit";
-      const snow = document.querySelector(".shit");
+      const donateButton = document.getElementById("donate");
+      donateButton.addEventListener("click", () => {
+        console.log("click");
+        donateButton.disabled = true;
+        donateButton.innerText = "Thank you!";
+
+        const drops = document.querySelectorAll(".shit__item--drop");
+        drops.forEach((drop) => {
+          drop.classList.add("visible");
+        });
+
+        setTimeout(() => {
+          donateButton.remove();
+        }, 5000);
+      });
+
       const snowflakes = document.querySelectorAll(".shit__item");
 
       function getRndInteger(min, max) {
@@ -113,26 +105,6 @@ ppys.forEach((ppy) => {
         snowflake.style.animationDuration = getRndInteger(10, 15) + "s";
         snowflake.style.animationDelay =
           getRndInteger(-1, snowflakes.length / 2) + "s";
-      });
-
-      function changeSnowAnimation(animationName) {
-        snow.style.setProperty("--animation-name", animationName);
-      }
-
-      document.addEventListener("DOMContentLoaded", () => {
-        let currentStorage = localStorage.getItem(storageKey);
-
-        if (currentStorage) {
-          snowToggle.querySelector(
-            `.snow-toggle__control[value='${currentStorage}']`
-          ).checked = true;
-        }
-
-        changeSnowAnimation(currentStorage);
-
-        window.addEventListener("storage", () => {
-          changeSnowAnimation(localStorage.getItem(storageKey));
-        });
       });
 
       const audio = new Audio("./audio/circles.mp3");

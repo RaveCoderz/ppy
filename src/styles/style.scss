@@ -328,17 +328,22 @@ p {
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     will-change: transform;
+
+    &--drop {
+      display: none;
+
+      &.visible {
+        display: block;
+      }
+    }
   }
 }
 
-@keyframes snowfall {
-  0% {
-    transform: translateY(0);
-  }
-
-  100% {
-    transform: translateY(calc(100vh + 3.5em));
-  }
+.donate {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  z-index: 1000;
 }
 
 .osu {
@@ -409,6 +414,16 @@ p {
 @keyframes blink {
   50% {
     transform: scale(4);
+  }
+}
+
+@keyframes snowfall {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(calc(100vh + 3.5em));
   }
 }
 
